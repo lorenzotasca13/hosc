@@ -52,8 +52,7 @@ void termalisation() {
 
 	int i;
     int heat=0; /*0 a freddo, 1 a caldo*/
-	int n_sweep=200; /*numero di sweep effettuati*/
-
+	
 	if (heat==0) { /*inizializziamo il vettore*/
         for (i=0; i<N; i++) {
             xx[i]=0;
@@ -64,7 +63,7 @@ void termalisation() {
 	    ranlxd(xx,N);
     }
 
-	for (i=0; i<n_sweep; i++) { /*fa un po' di sweep per termalizzare*/
+	for (i=0; i<N_TERM; i++) { /*fa un po' di sweep per termalizzare*/
 		sweep(3122000+i);
     }
 

@@ -14,6 +14,7 @@
 #define M 1.0
 #define W 1.0
 #define Delta 1.5
+#define N_TERM 200
 #define N_SWEEP 2500
 #define t_M_max 30
 #define t_fisico_max 10
