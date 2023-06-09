@@ -1,8 +1,8 @@
-#ifndef HOSC_H
-#define HOSC_H
+#ifndef HARMONIC_OSCILLATOR_H
+#define HARMONIC_OSCILLATOR_H
 #endif
 
-#ifndef ACTION_C
+#ifndef HARMONIC_OSCILLATOR_C
 extern double action();
 extern double delta_action(int , double);
 extern double sweep (int);

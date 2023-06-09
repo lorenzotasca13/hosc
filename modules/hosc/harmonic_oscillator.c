@@ -1,4 +1,4 @@
-#define ACTION_C
+#define HARMONIC_OSCILLATOR_C
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>

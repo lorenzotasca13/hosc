@@ -27,7 +27,7 @@ START = start utils
 
 EXTRAS = 
 
-HOSC = action
+HOSC = harmonic_oscillator
 
 MODULES = $(RANDOM) $(START) $(EXTRAS) $(HOSC)
 
