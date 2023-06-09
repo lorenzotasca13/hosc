@@ -36,7 +36,7 @@ double sweep (int seed) {
 	rlxd_init(1,seed);
 	ranlxd(r,2*N);
 	for (i=0; i<N; i++) {
-		deltax=2*Delta*(r[i]-0.5);
+		deltax=2*DELTA*(r[i]-0.5);
 		deltaS=delta_action(i, deltax);
 		if (deltaS<0 || r[N+i]<=exp(-deltaS)) {
 			xx[i]=xx[i]+deltax;
