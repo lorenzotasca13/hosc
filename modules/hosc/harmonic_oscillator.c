@@ -90,12 +90,12 @@ double* corr(int t_fisico) {
 }
 */
 /*calcola c(t) sul xx attuale*/
-double c(int t_fisico) {
+double c(int t) {
 	double c=0;
 	int k;
 
 	for (k=0; k<N; k++) {
-		c+=xx[k]*xx[(k+t_fisico)%N];	
+		c+=xx[k]*xx[(k+t%N];	
 	}
 	c/=(double)N;
 
